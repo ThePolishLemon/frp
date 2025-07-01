@@ -11,7 +11,8 @@ Summary: unofficial spec file for frp
 License: Apache-2.0
 URL: https://github.com/fatedier/frp
 Source: https://github.com/fatedier/frp/archive/refs/tags/v%{build_version}.tar.gz
-Requires: golang
+BuildRequires: golang
+BuildRequires: make
 
 
 %description
