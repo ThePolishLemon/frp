@@ -10,7 +10,8 @@ Release: 3%{?dist}
 Summary: unofficial spec file for frp
 License: Apache-2.0
 URL: https://github.com/fatedier/frp
-Source: https://github.com/fatedier/frp/archive/refs/tags/v%{build_version}.tar.gz
+Source0: https://github.com/fatedier/frp/archive/refs/tags/v%{build_version}.tar.gz
+
 BuildRequires: golang
 BuildRequires: make
 
@@ -19,7 +20,7 @@ BuildRequires: make
 FRP rpm build
 
 %prep
-%setup
+%setup -n frp-%{build_version}
 
 %build
 make build
