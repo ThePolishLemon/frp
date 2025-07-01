@@ -6,7 +6,7 @@
 
 Name: frp
 Version: %{build_version}
-Release: 2%{?dist}
+Release: 3%{?dist}
 Summary: unofficial spec file for frp
 License: Apache-2.0
 URL: https://github.com/fatedier/frp
@@ -69,8 +69,22 @@ install -D -m 0755 bin/frpc %{buildroot}%{_bindir}/frpc
 %{_bindir}/frpc
 /etc/frp/frps.toml
 /etc/frp/frpc.toml
-
+/etc/systemd/system/frps.service
+/etc/systemd/system/frpc.service
 %changelog
+* Tue Jul 01 2025 Max K <jhysue@gmail.com> 0.63.0-3
+- 
+
+* Tue Jul 01 2025 Max K <jhysue@gmail.com>
+- 
+
+* Tue Jul 01 2025 Max K <jhysue@gmail.com>
+- actually add the systemd file lol
+
+
+* Tue Jul 01 2025 Max K <jhysue@gmail.com>
+- actually added the systemd file lol
+
 * Tue Jul 01 2025 Max K <jhysue@gmail.com> 0.63.0-2
 - 
 
