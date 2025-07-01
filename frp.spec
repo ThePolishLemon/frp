@@ -6,7 +6,7 @@
 
 Name: frp
 Version: %{build_version}
-Release: 1%{?dist}
+Release: 2%{?dist}
 Summary: unofficial spec file for frp
 License: Apache-2.0
 URL: https://github.com/fatedier/frp
@@ -71,6 +71,12 @@ install -D -m 0755 bin/frpc %{buildroot}%{_bindir}/frpc
 /etc/frp/frpc.toml
 
 %changelog
+* Tue Jul 01 2025 Max K <jhysue@gmail.com> 0.63.0-2
+- 
+
+* Tue Jul 01 2025 Max K <jhysue@gmail.com>
+- 
+
 * Tue Jul 01 2025 Unknown name 0.63.0-1
 - new package built with tito
 
