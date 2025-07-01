@@ -1,0 +1,20 @@
+
+# Mac stuff
+.DS_Store
+
+# SWAP Files
+*.swp
+*~
+
+# RPM SOURCES
+*.tgz
+*.gz
+*.zip
+*.war
+
+# RPMS
+rpmbuild/BUILD
+rpmbuild/BUILDROOT
+rpmbuild/RPMS
+rpmbuild/SRPMS
+*.rpm

@@ -56,11 +56,11 @@ EOF
 # ensure output is correct
 
 %install
-install -D -m 0755 conf/frps.toml %{buildroot}/etc/frp/frps.toml
-install -D -m 0755 conf/frpc.toml %{buildroot}/etc/frp/frpc.toml
+install -D -m 0655 conf/frps.toml %{buildroot}/etc/frp/frps.toml
+install -D -m 0655 conf/frpc.toml %{buildroot}/etc/frp/frpc.toml
 
-install -D -m 0755 frps.service %{buildroot}/etc/systemd/system/frps.service
-install -D -m 0755 frpc.service %{buildroot}/etc/systemd/system/frpc.service
+install -D -m 0655 frps.service %{buildroot}/etc/systemd/system/frps.service
+install -D -m 0655 frpc.service %{buildroot}/etc/systemd/system/frpc.service
 
 install -D -m 0755 bin/frps %{buildroot}%{_bindir}/frps
 install -D -m 0755 bin/frpc %{buildroot}%{_bindir}/frpc
