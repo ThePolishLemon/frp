@@ -7,7 +7,7 @@ srpm:
 	cd $(CURDIR)/SOURCES
 	spectool --get-files $(spec)/frp.spec
 	cd ..
-	rpmbuild -bs $(CURDIR)/frp.spec \
+	rpmbuild -bs $(spec)/frp.spec \
 	--define "_topdir $(CURDIR)" \
 	--define "_srcrpmdir $(outdir)"
 
