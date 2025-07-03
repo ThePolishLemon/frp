@@ -1,0 +1,6 @@
+usr/bin/frpc /usr/bin/
+usr/bin/frps /usr/bin/
+etc/frp/frpc.toml /etc/frp/
+etc/frp/frps.toml /etc/frp/
+etc/systemd/system/frpc.service etc/systemd/system/
+etc/systemd/system/frps.service etc/systemd/system/

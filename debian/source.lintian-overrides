@@ -1,0 +1,4 @@
+source-is-missing [assets/frps/static/*.js]
+source-is-missing [assets/frps/static/*.css]
+source-is-missing [assets/frpc/static/*.js]
+source-is-missing [assets/frpc/static/*.css]

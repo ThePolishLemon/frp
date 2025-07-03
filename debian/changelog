@@ -1,0 +1,71 @@
+frp (0.63.0-12) noble; urgency=medium
+
+  * last chance to look at me hector 
+
+ -- polishmelon <jhysue@proton.me>  Thu, 03 Jul 2025 19:49:28 +0000
+
+frp (0.63.0-11) noble; urgency=medium
+
+  * ugh stop whining thingamajig 
+
+ -- polishmelon <jhysue@proton.me>  Thu, 03 Jul 2025 19:34:17 +0000
+
+frp (0.63.0-10) noble; urgency=medium
+
+  * i have almost high hopes for this
+
+ -- polishmelon <jhysue@proton.me>  Thu, 03 Jul 2025 19:13:20 +0000
+
+frp (0.63.0-9) noble; urgency=medium
+
+  * My bad, now it should probably maybe work
+
+ -- polishmelon <jhysue@gmail.com>  Thu, 03 Jul 2025 19:00:18 +0000
+
+frp (0.63.0-8) noble; urgency=medium
+
+  * well, that was dumb
+
+ -- polishmelon <jhysue@proton.me>  Thu, 03 Jul 2025 18:52:24 +0000
+
+frp (0.63.0-7) noble; urgency=medium
+
+  * Fingers crossed at this point lol
+
+ -- polishmelon <jhysue@proton.me>  Thu, 03 Jul 2025 18:46:59 +0000
+
+frp (0.63.0-6) noble; urgency=medium
+
+  * Should finally work now
+
+ -- polishmelon <jhysue@proton.me>  Thu, 03 Jul 2025 17:38:35 +0000
+
+frp (0.63.0-5) noble; urgency=medium
+
+  * mayb now
+
+ -- polishmelon <jhysue@proton.me>  Thu, 03 Jul 2025 16:54:24 +0000
+
+frp (0.63.0-4) noble; urgency=medium
+
+  * Edited makefile to make the build actually take dependencies from the vendor directory
+
+ -- polishmelon <jhysue@proton.me>  Thu, 03 Jul 2025 16:44:19 +0000
+
+frp (0.63.0-3) noble; urgency=medium
+
+  * go mod vendor for internetless builds on launchpad
+
+ -- polishmelon <jhysue@proton.me>  Thu, 03 Jul 2025 15:38:34 +0000
+
+frp (0.63.0-2) noble; urgency=medium
+
+  * hopefully fix builds on launchpad caused by go having no home dir to write its stuff to
+
+ -- polishmelon <jhysue@proton.me>  Thu, 03 Jul 2025 15:12:24 +0000
+
+frp (0.63.0-1) noble; urgency=medium
+
+  * Initial release. 
+
+ -- polishmelon <jhysue@proton.me>  Thu, 03 Jul 2025 09:53:34 +0000

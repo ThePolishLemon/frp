@@ -1,0 +1,13 @@
+Source: frp
+Section: utils
+Priority: optional
+Maintainer: Max Kry <jhysue@proton.me>
+Standards-Version: 4.7.0.0
+Build-Depends: golang-1.23, golang-1.23-go, debhelper, make (>=4.3)
+Homepage: https://github.com/fatedier/frp
+
+Package: frp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Unofficial package for frp.
+
