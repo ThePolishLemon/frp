@@ -14,7 +14,7 @@ Source0: https://github.com/fatedier/frp/archive/refs/tags/v%{build_version}.tar
 
 BuildRequires: golang
 BuildRequires: make
-
+BuildRequires: git
 
 %description
 FRP rpm build
