@@ -6,7 +6,7 @@
 
 Name: frp
 Version: %{build_version}
-Release: 3%{?dist}
+Release: 4%{?dist}
 Summary: unofficial spec file for frp
 License: Apache-2.0
 URL: https://github.com/fatedier/frp
