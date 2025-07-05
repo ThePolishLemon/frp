@@ -69,10 +69,11 @@ install -D -m 0755 bin/frpc %{buildroot}%{_bindir}/frpc
 %files
 %{_bindir}/frps
 %{_bindir}/frpc
-/etc/frp/frps.toml
-/etc/frp/frpc.toml
 /etc/systemd/system/frps.service
 /etc/systemd/system/frpc.service
+%config /etc/frp/frps.toml
+%config /etc/frp/frpc.toml
+
 %changelog
 * Tue Jul 01 2025 Max K <jhysue@gmail.com> 0.63.0-3
 - 
